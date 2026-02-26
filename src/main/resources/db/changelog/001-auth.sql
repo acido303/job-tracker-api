@@ -26,3 +26,4 @@ CREATE TABLE user_roles (
 --changeset acido303:004-seed-roles
 INSERT INTO roles(name) VALUES ('USER') ON CONFLICT DO NOTHING;
 INSERT INTO roles(name) VALUES ('ADMIN') ON CONFLICT DO NOTHING;
+
